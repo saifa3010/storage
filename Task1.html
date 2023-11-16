@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Task1</title>  
+</head> 
+ 
+<body> 
+    <div class="myForm"> 
+        <form> 
+            <div> 
+                <h1>welcome</h1> 
+            </div> 
+            <div> 
+                <input type="text" placeholder="Full Name" id="fullName"> 
+            </div> 
+            <div> 
+                <input type="number" placeholder="Your Age" id="age"> 
+            </div> 
+            <div class="gender"> 
+                <input type="radio" value="female" name="gender" id="femaleGender"> 
+                <label>Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                <input type="radio" value="male" name="gender" id="maleGender"> 
+                <label>Male</label> 
+            </div> 
+            <div> 
+                <textarea name="description" id="description" cols="30" rows="10" 
+                    placeholder="Write a Brief Description"></textarea> 
+            </div> 
+            <div> 
+                <input type="text" placeholder="Your University" id="university"> 
+            </div> 
+            <div> 
+                <input type="text" placeholder="Your Major" id="major"> 
+            </div> 
+            <div> 
+                <label>Check your preferred languages (at least 3)</label> 
+                <br> 
+                <div class="languages"> 
+                    <input type="checkbox" value="php" name="language"> 
+                    <label>C++</label> 
+                    <input type="checkbox" value="css" name="language"> 
+                    <label>Java</label> 
+                    <input type="checkbox" value="js" name="language"> 
+                    <label>Python</label>
+					<input type="checkbox" value="html" name="language"> 
+                    <label>C#</label> 
+                </div> 
+            </div> 
+            <div> 
+                <button type="button" onclick="local()">Submit</button> 
+            </div> 
+        </form> 
+    </div> 
+    <script src="main1.js"> </script> 
+</body> 
+ 
+</html>
+

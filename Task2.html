@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Task2</title> 
+   
+</head> 
+ 
+<body> 
+    <div class="myForm">
+        <form id="projectForm">
+            <div>
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <br>
+            <div>
+                <textarea name="description" id="description" cols="30" rows="10"
+                    placeholder="Write a Brief Description"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="text" placeholder="User Type" id="userType">
+            </div>
+            <br>
+            <div>
+                <input type="text" placeholder="Technology Used" id="technologyUsed">
+            </div>
+            <br>
+            <div>
+                <button type="button" onclick="saveInfo()">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="projectCardsContainer">
+    </div>
+    <script src="main2.js"> </script> 
+</body> 
+ 
+</html>
+
